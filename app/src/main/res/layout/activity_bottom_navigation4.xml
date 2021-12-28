@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottom_navigation.bottomNavigation3.BottomNavigation3">
+
+<!--    <TextView-->
+<!--        android:id="@+id/txt_use_duplicate"-->
+<!--        android:justificationMode="inter_word"-->
+<!--        android:padding="30dp"-->
+<!--        android:text="For Use this BottomNavigationMenu \n Go to Gradle \n and Take out comment \n From dependency \n (Bottom Navigation 3)"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <fragment
+        android:layout_above="@+id/bottomBar_3"
+        android:id="@+id/fragmentContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph='@navigation/bottom_nav_3'/>
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomBar_3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:backgroundColor="@color/colorPrimary"
+        app:textColor="@color/white"
+        app:textSize="14sp"
+        app:iconSize="24dp"
+        app:indicatorColor="#2DFFFFFF"
+        app:indicatorRadius="16dp"
+        app:sideMargins="10dp"
+        app:itemPadding="10dp"
+        app:iconTint="#C8FFFFFF"
+        app:iconTintActive="#FFFFFF"
+        app:cornerRadius="16dp"
+        app:corners="top_right"
+        app:menu="@menu/menu_bottom_3"/>
+
+</RelativeLayout>
