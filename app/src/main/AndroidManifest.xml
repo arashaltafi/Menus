@@ -14,9 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".slider.slider3.Slider3"
+            android:exported="false" />
+        <activity
             android:name=".bottom_navigation.bottomNavigation3.BottomNavigation3"
-            android:theme="@style/ActionBar"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/ActionBar" />
         <activity
             android:name=".slider.slider2.Slider2"
             android:exported="true" />

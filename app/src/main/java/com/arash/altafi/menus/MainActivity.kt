@@ -12,6 +12,7 @@ import com.arash.altafi.menus.navigation_drawer.navigationDrawer3.NavigationDraw
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer4.NavigationDrawer4
 import com.arash.altafi.menus.slider.slider1.Slider1
 import com.arash.altafi.menus.slider.slider2.Slider2
+import com.arash.altafi.menus.slider.slider3.Slider3
 import com.arash.altafi.menus.tabbar_navigation.tabbar_navigation1.TabBarLayout1
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -70,6 +71,11 @@ class MainActivity : AppCompatActivity() {
 
         btn_slider_2.setOnClickListener {
             startActivity(Intent(this , Slider2::class.java))
+        }
+
+
+        btn_slider_3.setOnClickListener {
+            startActivity(Intent(this , Slider3::class.java))
         }
 
 
