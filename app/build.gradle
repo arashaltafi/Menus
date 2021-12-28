@@ -84,4 +84,7 @@ dependencies {
     // Bottom Navigation 4
     implementation 'eu.long1:spacetablayout:1.0.4'
 
+    // Bottom Navigation 5
+    implementation 'com.ss.bottomnavigation:bottomnavigation:1.5.2'
+
 }

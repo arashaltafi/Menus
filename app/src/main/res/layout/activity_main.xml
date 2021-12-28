@@ -1,110 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:orientation="vertical"
-    android:layout_gravity="center"
-    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:paddingHorizontal="50dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.button.MaterialButton
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:text="Navigation Drawer 1"
-        android:id="@+id/btn_navigation_drawer_1"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent">
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Navigation Drawer 2"
-        android:id="@+id/btn_navigation_drawer_2"
-        android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:padding="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Navigation Drawer 3"
-        android:id="@+id/btn_navigation_drawer_3"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:text="Navigation Drawer 1"
+                android:id="@+id/btn_navigation_drawer_1"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Navigation Drawer 4"
-        android:id="@+id/btn_navigation_drawer_4"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Navigation Drawer 2"
+                android:id="@+id/btn_navigation_drawer_2"
+                android:layout_height="wrap_content"/>
 
-<!--    bottom navigation-->
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Navigation Drawer 3"
+                android:id="@+id/btn_navigation_drawer_3"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:text="Bottom Navigation 1"
-        android:id="@+id/btn_bottom_navigation_1"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Navigation Drawer 4"
+                android:id="@+id/btn_navigation_drawer_4"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Bottom Navigation 2"
-        android:id="@+id/btn_bottom_navigation_2"
-        android:layout_height="wrap_content"/>
+            <!--    bottom navigation-->
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Bottom Navigation 3"
-        android:id="@+id/btn_bottom_navigation_3"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Navigation 1"
+                android:id="@+id/btn_bottom_navigation_1"
+                android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Navigation 2"
+                android:id="@+id/btn_bottom_navigation_2"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Bottom Navigation 4"
-        android:id="@+id/btn_bottom_navigation_4"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Navigation 3"
+                android:id="@+id/btn_bottom_navigation_3"
+                android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Navigation 4"
+                android:id="@+id/btn_bottom_navigation_4"
+                android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Navigation 5"
+                android:id="@+id/btn_bottom_navigation_5"
+                android:layout_height="wrap_content"/>
 
-    <!--    Slider -->
+            <!--    Slider -->
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:text="Slider 1"
+                android:id="@+id/btn_slider_1"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:text="Slider 1"
-        android:id="@+id/btn_slider_1"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Slider 2"
+                android:id="@+id/btn_slider_2"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Slider 2"
-        android:id="@+id/btn_slider_2"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Slider 3"
+                android:id="@+id/btn_slider_3"
+                android:layout_height="wrap_content"/>
 
+            <!--    Tab Bar Layout-->
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:text="Slider 3"
-        android:id="@+id/btn_slider_3"
-        android:layout_height="wrap_content"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:text="Tab Bar Layout 1"
+                android:id="@+id/btn_tab_bar_layout_1"
+                android:layout_height="wrap_content"/>
 
+            <!--    Tab Bar Layout-->
 
-    <!--    Tab Bar Layout-->
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:text="Tab Bar Layout 1"
+                android:id="@+id/btn_tab_bar_layout_2"
+                android:layout_height="wrap_content"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:text="Tab Bar Layout 1"
-        android:id="@+id/btn_tab_bar_layout_1"
-        android:layout_height="wrap_content"/>
+            <!--    Tab Bar Layout-->
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:text="Tab Bar Layout 1"
+                android:id="@+id/btn_tab_bar_layout_31"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>

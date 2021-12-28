@@ -7,6 +7,7 @@ import com.arash.altafi.menus.bottom_navigation.bottomNavigation1.BottomNavigati
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation2.BottomNavigation2
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation3.BottomNavigation3
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation4.BottomNavigation4
+import com.arash.altafi.menus.bottom_navigation.bottomNavigation5.BottomNavigation5
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer1.NavigationDrawer1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer2.NavigationDrawer2
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer3.NavigationDrawer3
@@ -65,6 +66,11 @@ class MainActivity : AppCompatActivity() {
 
         btn_bottom_navigation_4.setOnClickListener {
             startActivity(Intent(this , BottomNavigation4::class.java))
+        }
+
+
+        btn_bottom_navigation_5.setOnClickListener {
+            startActivity(Intent(this , BottomNavigation5::class.java))
         }
 
 
