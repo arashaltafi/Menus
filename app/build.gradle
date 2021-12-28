@@ -81,4 +81,7 @@ dependencies {
     // Bottom Navigation 3
     implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.8'
 
+    // Bottom Navigation 4
+    implementation 'eu.long1:spacetablayout:1.0.4'
+
 }

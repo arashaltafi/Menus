@@ -1,0 +1,34 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_navigation_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp" />
+
+    <eu.long1.spacetablayout.SpaceTabLayout
+        app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
+        android:id="@+id/spaceTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:number_of_tabs="five"
+        app:starting_position="three"
+        android:outlineSpotShadowColor="@color/white"
+        app:tab_color="@color/colorPrimary"
+        app:button_color="@color/colorAccent"
+        app:text_color="#61FFFFFF"
+        app:text_one="Fragment 1"
+        app:text_two="Fragment 2"
+        app:text_three="Fragment 3"
+        app:icon_one="@drawable/ic_tab_one"
+        app:icon_two="@drawable/ic_tab_two"
+        app:icon_three="@drawable/ic_tab_three"
+        app:icon_four="@drawable/ic_tab_four"
+        app:icon_five="@drawable/ic_tab_five"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
