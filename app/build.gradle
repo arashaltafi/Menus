@@ -87,4 +87,13 @@ dependencies {
     // Bottom Navigation 5
     implementation 'com.ss.bottomnavigation:bottomnavigation:1.5.2'
 
+    // Volley 1
+    implementation 'com.android.volley:volley:1.2.1'
+
+    // AndroidImageSlider
+    // Do Not Update Picasso Library when use this library (error!!!)
+    implementation 'com.squareup.picasso:picasso:2.3.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+
 }

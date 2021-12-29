@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".slider.slider4.Slider4">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider_4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        custom:indicator_visibility="visible"
+        custom:pager_animation="Accordion" />
+
+</LinearLayout>
