@@ -87,6 +87,10 @@ dependencies {
     // Bottom Navigation 5
     implementation 'com.ss.bottomnavigation:bottomnavigation:1.5.2'
 
+    // Bottom Navigation 6
+    implementation 'com.etebarian:meow-bottom-navigation:1.3.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+
     // Volley 1
     implementation 'com.android.volley:volley:1.2.1'
 
