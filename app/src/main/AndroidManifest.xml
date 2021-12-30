@@ -14,6 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".bottom_sheet.bottomSheet4.BottomSheet4"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_sheet.bottomSheet3.BottomSheet3"
+            android:exported="true" />
+        <activity
+            android:name=".bottom_sheet.bottomSheet2.BottomSheet2"
+            android:exported="true" />
+        <activity
+            android:name=".bottom_sheet.bottomSheet1.BottomSheet1"
+            android:exported="true" />
+        <activity
             android:name=".coordinator.CoordinatorLayout1"
             android:exported="true" />
         <activity

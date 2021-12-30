@@ -8,6 +8,10 @@ import com.arash.altafi.menus.bottom_navigation.bottomNavigation2.BottomNavigati
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation3.BottomNavigation3
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation4.BottomNavigation4
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation5.BottomNavigation5
+import com.arash.altafi.menus.bottom_sheet.bottomSheet1.BottomSheet1
+import com.arash.altafi.menus.bottom_sheet.bottomSheet2.BottomSheet2
+import com.arash.altafi.menus.bottom_sheet.bottomSheet3.BottomSheet3
+import com.arash.altafi.menus.bottom_sheet.bottomSheet4.BottomSheet4
 import com.arash.altafi.menus.coordinator.CoordinatorLayout1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer1.NavigationDrawer1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer2.NavigationDrawer2
@@ -107,6 +111,24 @@ class MainActivity : AppCompatActivity() {
 
         btn_coordinator_layout_1.setOnClickListener {
             startActivity(Intent(this , CoordinatorLayout1::class.java))
+        }
+
+        // bottom sheet
+
+        btn_bottom_sheet_layout_1.setOnClickListener {
+            startActivity(Intent(this , BottomSheet1::class.java))
+        }
+
+        btn_bottom_sheet_layout_2.setOnClickListener {
+            startActivity(Intent(this , BottomSheet2::class.java))
+        }
+
+        btn_bottom_sheet_layout_3.setOnClickListener {
+            startActivity(Intent(this , BottomSheet3::class.java))
+        }
+
+        btn_bottom_sheet_layout_4.setOnClickListener {
+            startActivity(Intent(this , BottomSheet4::class.java))
         }
 
     }

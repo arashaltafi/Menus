@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/back_application"
+    android:background="@color/background_color"
+    tools:context=".bottom_sheet.bottomSheet1.BottomSheet1">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_margin="40dp"
+            android:text="Bottom Sheet"
+            android:id="@+id/btn_bottom_sheet"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/play_list" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
