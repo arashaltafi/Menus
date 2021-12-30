@@ -122,6 +122,15 @@
                 android:id="@+id/btn_tab_bar_layout_1"
                 android:layout_height="wrap_content"/>
 
+            <!--    Coordinator Layout-->
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:text="Coordinator Layout 1"
+                android:id="@+id/btn_coordinator_layout_1"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

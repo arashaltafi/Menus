@@ -8,6 +8,7 @@ import com.arash.altafi.menus.bottom_navigation.bottomNavigation2.BottomNavigati
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation3.BottomNavigation3
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation4.BottomNavigation4
 import com.arash.altafi.menus.bottom_navigation.bottomNavigation5.BottomNavigation5
+import com.arash.altafi.menus.coordinator.CoordinatorLayout1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer1.NavigationDrawer1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer2.NavigationDrawer2
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer3.NavigationDrawer3
@@ -96,12 +97,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , Slider4::class.java))
         }
 
-
         // tab bar layout
-
 
         btn_tab_bar_layout_1.setOnClickListener {
             startActivity(Intent(this , TabBarLayout1::class.java))
+        }
+
+        // Coordinator layout
+
+        btn_coordinator_layout_1.setOnClickListener {
+            startActivity(Intent(this , CoordinatorLayout1::class.java))
         }
 
     }

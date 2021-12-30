@@ -96,4 +96,10 @@ dependencies {
     implementation 'com.nineoldandroids:library:2.4.0'
     implementation 'com.daimajia.slider:library:1.1.5@aar'
 
+
+    //Coordinator
+    //SimpleRatingBar
+    implementation 'com.github.ome450901:SimpleRatingBar:1.5.1'
+
+
 }

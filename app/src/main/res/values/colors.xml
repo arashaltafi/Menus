@@ -52,4 +52,18 @@
     <color name="blue">#0000FF</color>
     <color name="orange">#FF7F00</color>
 
+
+<!--    coordinator -->
+
+    <color name="green_200">#F5FBEF</color>
+    <color name="green_300">#DCFFEF</color>
+    <color name="green_500">#1BC978</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_900">#212121</color>
+
+
 </resources>
