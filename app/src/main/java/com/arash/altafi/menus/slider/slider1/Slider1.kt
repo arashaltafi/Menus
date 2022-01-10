@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
@@ -49,6 +50,9 @@ class Slider1 : AppCompatActivity() {
                 handler.postDelayed(sliderRunable, 5000)
             }
         })
+
+        // when false => can not scroll with manually
+        view_pager_bottom_1.isUserInputEnabled = false
 
     }
 
