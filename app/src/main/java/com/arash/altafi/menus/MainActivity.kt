@@ -13,6 +13,7 @@ import com.arash.altafi.menus.bottom_sheet.bottomSheet2.BottomSheet2
 import com.arash.altafi.menus.bottom_sheet.bottomSheet3.BottomSheet3
 import com.arash.altafi.menus.bottom_sheet.bottomSheet4.BottomSheet4
 import com.arash.altafi.menus.coordinator.CoordinatorLayout1
+import com.arash.altafi.menus.filter.filter1.FilterActivity1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer1.NavigationDrawer1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer2.NavigationDrawer2
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer3.NavigationDrawer3
@@ -129,6 +130,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_bottom_sheet_layout_4.setOnClickListener {
             startActivity(Intent(this , BottomSheet4::class.java))
+        }
+
+        btn_filter_1.setOnClickListener {
+            startActivity(Intent(this , FilterActivity1::class.java))
         }
 
     }

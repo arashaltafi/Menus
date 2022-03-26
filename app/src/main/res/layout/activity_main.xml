@@ -161,6 +161,13 @@
                 android:id="@+id/btn_bottom_sheet_layout_4"
                 android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30sp"
+                android:layout_width="match_parent"
+                android:text="ّFilter 1"
+                android:id="@+id/btn_filter_1"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

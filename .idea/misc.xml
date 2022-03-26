@@ -19,6 +19,7 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable-v24/ic_warranty.xml" value="0.3787037037037037" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable-v24/shape_radius_cat.xml" value="0.3787037037037037" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable/background_round_padded.xml" value="0.32407407407407407" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable/ic_message_black_24dp.xml" value="0.168" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable/menu_background_color_state.xml" value="0.32407407407407407" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable/round_top_background.xml" value="0.32407407407407407" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/drawable/shape_br_one.xml" value="0.3592592592592593" />
@@ -34,6 +35,7 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_bottom_sheet3.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_bottom_sheet4.xml" value="0.2324074074074074" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_coordinator_layout1.xml" value="0.32685185185185184" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_filter1.xml" value="0.3359173126614987" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_main.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_navigation_drawer1.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_navigation_drawer2.xml" value="0.33" />
@@ -43,6 +45,7 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_slider2.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_slider3.xml" value="0.31574074074074077" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_slider4.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_slider5.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/activity_tab_bar_layout1.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/app_bar_main.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/bottom_sheet.xml" value="0.3734375" />
@@ -52,24 +55,28 @@
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_3.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_accounts.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_blank.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_choice_chip.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_dashboard.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_filter_chip.xml" value="0.12037037037037036" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_first.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_fourth.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_gallery.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_home4.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_main.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_main_filter.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_profile.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_second.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_settings.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/fragment_third.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/item_banners.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/item_slider2.xml" value="0.25" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/layout_action_chip.xml" value="0.1828125" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/layout_by_product.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/layout_seller.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/nav_header_1.xml" value="0.25" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/nav_header_2.xml" value="0.3734375" />
-        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/play_list.xml" value="0.3734375" />
+        <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/play_list.xml" value="0.33" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/layout/single_item.xml" value="0.2657407407407407" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/menu/another_menu.xml" value="0.3734375" />
         <entry key="..\:/Users/Arash/Desktop/source-android/GIT/menu/app/src/main/res/menu/bottom_navigation.xml" value="0.3734375" />
