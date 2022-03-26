@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".bottom_sheet.bottomSheet5.BottomSheet5"
+            android:exported="false" />
+        <activity
             android:name=".filter.filter1.FilterActivity1"
             android:exported="false" />
         <activity
