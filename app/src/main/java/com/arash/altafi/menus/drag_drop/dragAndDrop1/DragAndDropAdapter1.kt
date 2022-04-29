@@ -1,4 +1,4 @@
-package com.arash.altafi.menus.drag_drop
+package com.arash.altafi.menus.drag_drop.dragAndDrop1
 
 import android.view.LayoutInflater
 import android.view.MotionEvent
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.arash.altafi.menus.R
-import kotlinx.android.synthetic.main.item_drag_and_drop.view.*
+import kotlinx.android.synthetic.main.item_drag_and_drop1.view.*
 
-class DragAndDropAdapter(private val activity: DragAndDropActivity): RecyclerView.Adapter<DragAndDropAdapter.DragAndDropViewHolder>() {
+class DragAndDropAdapter1(private val activity: DragAndDropActivity1): RecyclerView.Adapter<DragAndDropAdapter1.DragAndDropViewHolder>() {
 
     private var emojis = listOf(
         "😀",
@@ -47,7 +47,7 @@ class DragAndDropAdapter(private val activity: DragAndDropActivity): RecyclerVie
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DragAndDropViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_drag_and_drop, parent, false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_drag_and_drop1, parent, false)
         val viewHolder = DragAndDropViewHolder(itemView)
 
         viewHolder.itemView.handleView.setOnTouchListener { view, event ->

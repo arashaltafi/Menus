@@ -14,7 +14,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
-            android:name=".drag_drop.DragAndDropActivity"
+            android:name=".drag_drop.dragAndDrop2.DragAndDropActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".drag_drop.dragAndDrop1.DragAndDropActivity1"
             android:exported="false" />
         <activity
             android:name=".bottom_sheet.bottomSheet5.BottomSheet5"

@@ -14,7 +14,8 @@ import com.arash.altafi.menus.bottom_sheet.bottomSheet3.BottomSheet3
 import com.arash.altafi.menus.bottom_sheet.bottomSheet4.BottomSheet4
 import com.arash.altafi.menus.bottom_sheet.bottomSheet5.BottomSheet5
 import com.arash.altafi.menus.coordinator.CoordinatorLayout1
-import com.arash.altafi.menus.drag_drop.DragAndDropActivity
+import com.arash.altafi.menus.drag_drop.dragAndDrop1.DragAndDropActivity1
+import com.arash.altafi.menus.drag_drop.dragAndDrop2.DragAndDropActivity2
 import com.arash.altafi.menus.filter.filter1.FilterActivity1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer1.NavigationDrawer1
 import com.arash.altafi.menus.navigation_drawer.navigationDrawer2.NavigationDrawer2
@@ -142,8 +143,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , FilterActivity1::class.java))
         }
 
-        btn_drag_and_drop.setOnClickListener {
-            startActivity(Intent(this , DragAndDropActivity::class.java))
+        btn_drag_and_drop_1.setOnClickListener {
+            startActivity(Intent(this , DragAndDropActivity1::class.java))
+        }
+
+        btn_drag_and_drop_2.setOnClickListener {
+            startActivity(Intent(this , DragAndDropActivity2::class.java))
         }
 
     }
