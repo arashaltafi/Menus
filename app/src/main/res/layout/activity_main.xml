@@ -175,6 +175,13 @@
                 android:id="@+id/btn_filter_1"
                 android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="30sp"
+                android:layout_width="match_parent"
+                android:text="Drag And Drop"
+                android:id="@+id/btn_drag_and_drop"
+                android:layout_height="wrap_content"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
