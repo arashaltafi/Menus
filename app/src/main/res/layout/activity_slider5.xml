@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".slider.slider5.Slider5">
+
+    <com.arash.altafi.menus.slider.slider5.ImageSlider
+        android:id="@+id/slider5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="10dp"
+        app:is_auto_cycle="true"
+        app:is_delay="4000"
+        app:is_error_image="@drawable/ic_default_error"
+        app:is_indicator_align="center"
+        app:is_period="4000"
+        app:is_placeholder="@drawable/shp_transparent"
+        app:is_selected_dot="@drawable/tab_layout_indicator_selected"
+        app:is_unselected_dot="@drawable/tab_layout_indicator_default"
+        tools:background="?attr/colorSecondary"
+        tools:layout_height="200dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start sliding"
+        android:layout_above="@+id/btnStop"
+        android:id="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop sliding"
+        android:id="@+id/btnStop"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>

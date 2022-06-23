@@ -25,6 +25,7 @@ import com.arash.altafi.menus.slider.slider1.Slider1
 import com.arash.altafi.menus.slider.slider2.Slider2
 import com.arash.altafi.menus.slider.slider3.Slider3
 import com.arash.altafi.menus.slider.slider4.Slider4
+import com.arash.altafi.menus.slider.slider5.Slider5
 import com.arash.altafi.menus.tabbar_navigation.tabbar_navigation1.TabBarLayout1
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -56,9 +57,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , NavigationDrawer4::class.java))
         }
 
-
         // bottom navigation
-
 
         btn_bottom_navigation_1.setOnClickListener {
             startActivity(Intent(this , BottomNavigation1::class.java))
@@ -68,24 +67,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , BottomNavigation2::class.java))
         }
 
-
         btn_bottom_navigation_3.setOnClickListener {
             startActivity(Intent(this , BottomNavigation3::class.java))
         }
-
 
         btn_bottom_navigation_4.setOnClickListener {
             startActivity(Intent(this , BottomNavigation4::class.java))
         }
 
-
         btn_bottom_navigation_5.setOnClickListener {
             startActivity(Intent(this , BottomNavigation5::class.java))
         }
 
-
         // Slider
-
 
         btn_slider_1.setOnClickListener {
             startActivity(Intent(this , Slider1::class.java))
@@ -95,14 +89,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this , Slider2::class.java))
         }
 
-
         btn_slider_3.setOnClickListener {
             startActivity(Intent(this , Slider3::class.java))
         }
 
-
         btn_slider_4.setOnClickListener {
             startActivity(Intent(this , Slider4::class.java))
+        }
+
+        btn_slider_5.setOnClickListener {
+            startActivity(Intent(this , Slider5::class.java))
         }
 
         // tab bar layout

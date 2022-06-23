@@ -37,4 +37,25 @@
 
     <attr name="SmoothBottomBarStyle" format="reference" />
 
+
+    <declare-styleable name="ImageSlider">
+        <attr name="is_auto_cycle" format="boolean" />
+        <attr name="is_period" format="integer" />
+        <attr name="is_delay" format="integer" />
+        <attr name="is_placeholder" format="reference" />
+        <attr name="is_error_image" format="reference" />
+        <attr name="is_selected_dot" format="reference" />
+        <attr name="is_unselected_dot" format="reference" />
+        <attr name="is_text_align" format="enum">
+            <enum name="center" value="0" />
+            <enum name="end" value="1" />
+            <enum name="start" value="2" />
+        </attr>
+        <attr name="is_indicator_align" format="enum">
+            <enum name="center" value="0" />
+            <enum name="end" value="1" />
+            <enum name="start" value="2" />
+        </attr>
+    </declare-styleable>
+
 </resources>
