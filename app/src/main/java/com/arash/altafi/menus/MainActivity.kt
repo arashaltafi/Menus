@@ -26,6 +26,7 @@ import com.arash.altafi.menus.slider.slider2.Slider2
 import com.arash.altafi.menus.slider.slider3.Slider3
 import com.arash.altafi.menus.slider.slider4.Slider4
 import com.arash.altafi.menus.slider.slider5.Slider5
+import com.arash.altafi.menus.slider.slider6.Slider6
 import com.arash.altafi.menus.tabbar_navigation.tabbar_navigation1.TabBarLayout1
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -99,6 +100,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_slider_5.setOnClickListener {
             startActivity(Intent(this , Slider5::class.java))
+        }
+
+        btn_slider_6.setOnClickListener {
+            startActivity(Intent(this , Slider6::class.java))
         }
 
         // tab bar layout
