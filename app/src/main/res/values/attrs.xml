@@ -58,4 +58,11 @@
         </attr>
     </declare-styleable>
 
+    <declare-styleable name="CustomToolbar">
+        <attr name="title" format="string" />
+        <attr name="elevation" format="dimension" />
+        <attr name="btnBackShow" format="boolean" />
+        <!--        <attr name="menus" format="reference" />-->
+    </declare-styleable>
+
 </resources>

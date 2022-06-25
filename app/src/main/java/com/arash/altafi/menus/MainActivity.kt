@@ -28,6 +28,7 @@ import com.arash.altafi.menus.slider.slider4.Slider4
 import com.arash.altafi.menus.slider.slider5.Slider5
 import com.arash.altafi.menus.slider.slider6.Slider6
 import com.arash.altafi.menus.tabbar_navigation.tabbar_navigation1.TabBarLayout1
+import com.arash.altafi.menus.toolbar.toolbar1.Toolbar1
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -150,6 +151,10 @@ class MainActivity : AppCompatActivity() {
 
         btn_drag_and_drop_2.setOnClickListener {
             startActivity(Intent(this , DragAndDropActivity2::class.java))
+        }
+
+        btn_toolbar_1.setOnClickListener {
+            startActivity(Intent(this , Toolbar1::class.java))
         }
 
     }
