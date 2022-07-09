@@ -183,6 +183,20 @@
                 android:layout_height="wrap_content"/>
 
             <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Sheet 6"
+                android:id="@+id/btn_bottom_sheet_layout_6"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Bottom Sheet 7"
+                android:id="@+id/btn_bottom_sheet_layout_7"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
                 android:layout_marginTop="30sp"
                 android:layout_width="match_parent"
                 android:text="ّFilter 1"

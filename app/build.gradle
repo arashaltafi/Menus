@@ -7,12 +7,11 @@ plugins {
 }
 
 android {
-    compileSdk 31
-
+    compileSdk 32
     defaultConfig {
         applicationId "com.arash.altafi.menus"
         minSdk 21
-        targetSdk 31
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -115,5 +114,8 @@ dependencies {
 
     //Bottom Sheet 4
     implementation 'com.qhutch.bottomsheetlayout:bottomsheetlayout:0.1.9'
+
+    //Bottom Sheet 7
+    implementation 'nl.joery.animatedbottombar:library:1.1.0'
 
 }

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.VerticalArcContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/include_buttons_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView
+        android:id="@+id/include_arc_buttons_temp_arc"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#2196F3"
+        android:elevation="3dp"
+        android:visibility="gone"
+        app:findBestWidth="true"
+        app:radius="550dp"
+        app:stroke_width="50dp" />
+
+    <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#b71c1c"
+        android:elevation="5dp"
+        app:findBestWidth="true"
+        app:radius="400dp"
+        app:stroke_width="50dp">
+
+        <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:itemsOffset="7dp"
+            app:useMinPadding="true">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/include_buttons_stroke"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_stroke" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/include_buttons_shadow"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_shadow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_size" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_font" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_color" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_rotate_right" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_background_color" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_copy" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_close_white" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_stroke" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_shadow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_size" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_font" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_color" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_rotate_right" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_background_color" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_copy" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/EditActivityImageView"
+                android:src="@drawable/ic_close_white" />
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="0dp" />
+
+        </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout>
+
+    </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView>
+
+    <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView
+        android:id="@+id/activity_edit_image_move_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/move_button_background"
+        android:elevation="6dp"
+        app:findBestWidth="true"
+        app:radius="300dp"
+        app:stroke_width="40dp">
+
+        <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:itemsOffset="7dp"
+            app:useMinPadding="true">
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="0dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_align_top"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_align_top" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_align_left"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_align_left" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_center_horizontal"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_center_horizontal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_up_button"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_up_arrow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_down_button"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_down_arrow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_left_button"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_left_arrow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_right_button"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_right_arrow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_center_vertical"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_center_vertical" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_align_right"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_align_right" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/activity_edit_image_move_align_bottom"
+                style="@style/EditActivityImageView"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_align_bottom" />
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="0dp" />
+
+        </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout>
+
+    </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView>
+
+    <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#0088ff"
+        android:elevation="9dp"
+        app:findBestWidth="true"
+        app:radius="100dp"
+        app:stroke_width="50dp">
+
+        <com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:itemsOffset="7dp"
+            app:useMinPadding="true">
+
+            <TextView
+                android:id="@+id/include_buttons_text_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:text="text"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcLinearLayout>
+
+    </com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.ArcScrollView>
+
+</com.arash.altafi.menus.bottom_sheet.bottomSheet6.arcview.VerticalArcContainer>
