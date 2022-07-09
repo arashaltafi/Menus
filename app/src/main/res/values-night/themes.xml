@@ -100,4 +100,9 @@
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
+    <style name="CustomText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
 </resources>

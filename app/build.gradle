@@ -117,5 +117,8 @@ dependencies {
 
     //Bottom Sheet 7
     implementation 'nl.joery.animatedbottombar:library:1.1.0'
+    implementation 'com.jaredrummler:colorpicker:1.1.0'
+    implementation 'me.jfenn.ColorPickerDialog:base:0.2.2'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
 
 }

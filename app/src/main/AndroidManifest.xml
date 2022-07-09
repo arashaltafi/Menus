@@ -14,6 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menus">
         <activity
+            android:name=".bottom_sheet.bottomSheet7.playground.PlaygroundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_sheet.bottomSheet7.viewpager.ViewPagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_sheet.bottomSheet7.ExampleActivity"
+            android:exported="false" />
+        <activity
             android:name=".bottom_sheet.bottomSheet7.BottomSheet7"
             android:exported="false" />
         <activity
