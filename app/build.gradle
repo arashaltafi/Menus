@@ -78,6 +78,9 @@ dependencies {
     // slider 1
     implementation 'com.tbuonomo:dotsindicator:4.2'
 
+    // slider 7
+    implementation 'com.github.sparrow007:carouselrecyclerview:1.2.1'
+
     // Bottom Navigation 2
     //duplicate with SmoothBottomBar (for use , first comment SmoothBottomBar and sync and use source)
 //    implementation 'com.github.ibrahimsn98:NiceBottomBar:2.2'
