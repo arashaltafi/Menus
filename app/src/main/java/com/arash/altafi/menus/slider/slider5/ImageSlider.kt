@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import androidx.viewpager2.widget.ViewPager2
+import com.arash.altafi.menus.BuildConfig
 import com.arash.altafi.menus.R
 import com.arash.altafi.menus.databinding.ComponentImageSliderBinding
 import com.google.android.material.tabs.TabLayoutMediator
@@ -142,6 +143,7 @@ class ImageSlider @JvmOverloads constructor(
      * @param  changeablePeriod  optional period value
      */
     fun startSliding(changeablePeriod: Long = period) {
+        onPause()
         stopSliding()
         scheduleTimer(changeablePeriod)
     }
@@ -179,8 +181,22 @@ class ImageSlider @JvmOverloads constructor(
      */
     fun setItemClickListener(itemClickListener: ItemClickListener) {
         viewPagerAdapter?.onClickListener = { item ->
-            itemClickListener.onItemSelected(
-                imageData.indexOfFirst { it.id == item.id }
+            itemClickListener.onItemSelected(item)
+        }
+        viewPagerAdapter?.onClickListenerPlayingVideo = {
+            if (it)
+                stopSliding()
+            else
+                startSliding()
+        }
+
+        viewPagerAdapter?.onClickListenerShare = { item, bitmap, url ->
+            context.shareTextWithImage(
+                BuildConfig.APPLICATION_ID,
+                bitmap,
+                url,
+                item.title,
+                item.title
             )
         }
     }
@@ -202,6 +218,14 @@ class ImageSlider @JvmOverloads constructor(
     fun setTouchListener(touchListener: OnTouchListener) {
         this.touchListener = touchListener
         this.viewPagerAdapter!!.setTouchListener(touchListener)
+    }
+
+    fun onPause() {
+        viewPagerAdapter?.onPause()
+    }
+
+    fun onDestroy() {
+        viewPagerAdapter?.onDestroy()
     }
 
 }
