@@ -35,7 +35,7 @@ class Slider8 : AppCompatActivity() {
         snapHelper.attachToRecyclerView(rc_slider_8)
 
         // Effect
-        val zoomRecyclerLayout = (this, LinearLayoutManager.HORIZONTAL, false)
+        val zoomRecyclerLayout = ZoomRecyclerLayout(this, LinearLayoutManager.HORIZONTAL, false)
         rc_slider_8.layoutManager = zoomRecyclerLayout
 
         rc_slider_8.isNestedScrollingEnabled = false
