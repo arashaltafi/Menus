@@ -38,7 +38,7 @@ class NavigationDrawer4 : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun initDrawer() {
-        val drawerToggle = DuoDrawerToggle(this,drawerLayout,toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+        val drawerToggle = DuoDrawerToggle(this,drawerLayout,toolbar, nl.psdcompany.psd.duonavigationdrawer.R.string.navigation_drawer_open, nl.psdcompany.psd.duonavigationdrawer.R.string.navigation_drawer_close)
         drawerLayout.setDrawerListener(drawerToggle)
         drawerToggle.syncState()
         val contentView: View = drawerLayout.contentView

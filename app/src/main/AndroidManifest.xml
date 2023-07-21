@@ -83,6 +83,9 @@
             android:name=".slider.slider3.Slider3"
             android:exported="true" />
         <activity
+            android:name=".slider.slider8.Slider8"
+            android:exported="true" />
+        <activity
             android:name=".bottom_navigation.bottomNavigation3.BottomNavigation3"
             android:exported="true"
             android:theme="@style/ActionBar" />

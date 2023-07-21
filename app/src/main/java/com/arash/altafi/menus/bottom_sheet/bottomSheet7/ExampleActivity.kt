@@ -31,7 +31,7 @@ class ExampleActivity : AppCompatActivity() {
             for (bottomBar in bottomBars) {
                 bottomBar.addTabAt(
                     0,
-                    bottom_bar.createTab(R.drawable.alarm, R.string.app_name)
+                    bottom_bar.createTab(nl.joery.animatedbottombar.R.drawable.alarm, R.string.app_name)
                 )
             }
         }

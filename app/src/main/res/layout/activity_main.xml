@@ -134,6 +134,13 @@
                 android:id="@+id/btn_slider_7"
                 android:layout_height="wrap_content"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:text="Slider 8"
+                android:id="@+id/btn_slider_8"
+                android:layout_height="wrap_content"/>
+
             <!--    Tab Bar Layout-->
 
             <com.google.android.material.button.MaterialButton
